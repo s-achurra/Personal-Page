@@ -1,26 +1,26 @@
 .modal {
-    visibility: hidden;
-    opacity: 0;
-    position: fixed;
-    margin: 0 auto;
-    transition: all 0.5s ease;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal_content {
-    background-color: #fefefe;
-    position: fixed;
-    margin: 10% 10%;
-    padding: 20px;
-    width: 80%;
-    height: 65vh;
+  background-color: #fefefe;
+  position: fixed;
+  margin: 10% 10%;
+  padding: 20px;
+  width: 80%;
+  height: 65vh;
 }
 
 .modal_body {
@@ -45,7 +45,7 @@
 }
 
 .modal_text li {
-  margin : 5px 0;
+  margin: 5px 0;
 }
 
 .modal_images {
@@ -92,13 +92,16 @@
     height: calc(100vh - 90px);
     padding: 10%;
   }
+
   .modal_images {
     flex-direction: row;
   }
+
   .modal_links {
     flex-direction: column;
     padding-bottom: 40px;
   }
+
   .modal_images {
     flex-direction: column;
   }
@@ -112,15 +115,15 @@
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: #222222;
-    text-decoration: none;
-    cursor: pointer;
+  color: #222222;
+  text-decoration: none;
+  cursor: pointer;
 }

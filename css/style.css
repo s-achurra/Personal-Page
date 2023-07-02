@@ -47,8 +47,9 @@ nav {
   height: 90px;
 }
 
-.controls *, .name,
-.toggle-nav{
+.controls *,
+.name,
+.toggle-nav {
   padding: 15px;
   color: white;
   text-decoration: none;
@@ -56,7 +57,7 @@ nav {
 }
 
 i.fa.fa-download {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .toggle-nav {
@@ -68,6 +69,7 @@ i.fa.fa-download {
   .controls {
     display: none;
   }
+
   .toggle-nav {
     display: block;
   }
@@ -165,6 +167,7 @@ i.fa.fa-download {
   #about .about_text p {
     min-width: 280px;
   }
+
   #about .about_text {
     flex-wrap: wrap;
   }
@@ -250,6 +253,7 @@ i.fa.fa-download {
     width: 100%;
     padding: 0;
   }
+
   .project_img .overlay {
     min-height: calc(400px * (2/3));
   }
@@ -299,12 +303,8 @@ i.fa.fa-download {
 }
 
 #footer .links *:hover,
-  .controls a:hover,
-  .controls a:hover i,
-  .toggle-nav:hover {
+.controls a:hover,
+.controls a:hover i,
+.toggle-nav:hover {
   color: rgba(127, 174, 254, 0.8);
-}
-
-{
-  background-color: #555555;
 }

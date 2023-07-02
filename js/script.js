@@ -35,7 +35,7 @@ function handleMenu(e) {
 	e.preventDefault();
 	const offset = $('nav').position().top + 90;
 	controls.toggleClass('open-controls');
-	$('.open-controls').css('top', offset +'px');
+	$('.open-controls').css('top', offset + 'px');
 }
 
 function hideMenuControls() {
