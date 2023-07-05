@@ -11,6 +11,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 2rem;
+  margin: 3vh;
+  text-align: center;
+  line-height: 2.5rem;
+  max-width: 1500px;
+}
+
 h3 {
   font-size: 1.5rem;
   margin: 1vh;
@@ -120,8 +128,8 @@ i.fa.fa-download {
   height: calc(7vh - 90px);
 }
 
-#about,
-#skills,
+#intro,
+#tech_stack,
 #projects {
   width: 80%;
   padding-left: 10%;
@@ -129,7 +137,6 @@ i.fa.fa-download {
   background-color: white;
   margin: 0 auto;
   display: flex;
-  min-height: 60vh;
   padding-top: 5vh;
   padding-bottom: 5vh;
   justify-content: center;
@@ -141,15 +148,15 @@ i.fa.fa-download {
   margin: 50px;
 }
 
-#about {
+#intro {
   flex: 1;
 }
 
-#about .section_title {
+#intro .section_title {
   flex: 1;
 }
 
-#about .about_text {
+#intro .intro_text {
   flex: 4;
   display: flex;
   justify-content: center;
@@ -157,18 +164,18 @@ i.fa.fa-download {
   margin: 0 auto;
 }
 
-#about .about_text p {
+#intro .intro_text p {
   padding: 20px;
   font-size: 1.2rem;
   line-height: 1.8rem;
 }
 
 @media only screen and (max-width: 750px) {
-  #about .about_text p {
+  #intro .intro_text p {
     min-width: 280px;
   }
 
-  #about .about_text {
+  #intro .intro_text {
     flex-wrap: wrap;
   }
 }
@@ -187,7 +194,7 @@ i.fa.fa-download {
   color: white;
 }
 
-#skills .skill_list {
+#tech_stack .skill_list {
   display: flex;
   margin: 0 auto;
   max-width: 795px;
@@ -195,7 +202,7 @@ i.fa.fa-download {
   flex-wrap: wrap;
 }
 
-#skills .skill {
+#tech_stack .skill {
   display: block;
   width: 150px;
   height: 150px;
